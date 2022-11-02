@@ -50,9 +50,13 @@ Voici les requis généraux d'une application web cliente pair-à-pair:
     - à un même réseau,
     - à deux réseaux qui possèdent une connection entre eux, ou
     - à aucun réseau.
+  - Les deux clients web n'ont pas
+    - d'adresse ip permanente ou fixe, ou bien
+    - d'url permettant de retrouver l'adresse ip.
+  - Les deux clients web parviennent à se trouver.
   - Les deux clients web parviennent à établir une connection.
-  - Il serait préférable que les deux clients valident leur identité.
-  - À la suite de quoi, les 2 clients échangent de l'information qui a de
+  - Il serait préférable que les deux clients web valident l'identité de l'utilisateur.
+  - À la suite de quoi, les clients web échangent de l'information qui a de
     la valeur pour les utilisateurs.
 
 
